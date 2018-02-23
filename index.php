@@ -112,7 +112,7 @@ echo uploadsFiles($_FILES);
             if (in_array($item, ['.', '..'])) {
                 continue;
             }
-            echo "<img class='photo' src='http://localhost/upl/img/" . $item . "' >";
+            echo "<img class='photo' src='img/" . $item . "' >";
         } ?>
     </div>
 
